@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Wowchemy Research Group # Website name
-baseurl: '' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+title: CoE Faculty Senate # Website name
+baseurl: "http://wws2.hawaii.edu/~coesec/" # Website URL
+copyright: '&copy; 2022 Faculty Senate Charter, College of Engineering, University of Hawaii at Manoa' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

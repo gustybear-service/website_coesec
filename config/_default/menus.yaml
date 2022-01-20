@@ -2,20 +2,42 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
+#CoE Faculty Senate Charter, preamble/purpose of CoE Faculty Senate, who qualifies as a member
+#SEC members and officers
+# Resolutions and minutes
 
 main:
-  - name: News
-    url: post
+  - name: About
     weight: 20
-  - name: People
-    url: people
+  - name: About the Senate
+    url: purpose
+    parent: About
+    weight: 21
+  - name: Qualify as Members
+    url: qualify
+    parent: About
+    weight: 23
+  - name: Members and Officers
     weight: 30
-  - name: Events
-    url: event
+  - name: Members
+    url: senate_members
+    parent: Members and Officers
+    weight: 31
+  - name: Executive Committee
+    url: sec
+    parent: Members and Officers
+    weight: 32
+  - name: Docs & Resources
     weight: 40
-  - name: Publications
-    url: publication
-    weight: 50
-  - name: Contact
-    url: contact
-    weight: 60
+  - name: Charter
+    url: charter
+    parent: Docs & Resources
+    weight: 41
+  - name: Minutes
+    url: minutes
+    parent: Docs & Resources
+    weight: 42
+  - name: Resolutions
+    url: resolutions
+    parent: Docs & Resources
+    weight: 43

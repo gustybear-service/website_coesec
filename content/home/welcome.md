@@ -1,23 +1,28 @@
 ---
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
-
-widget: hero  # See https://wowchemy.com/docs/page-builder/
+widget: slider
 headless: true  # This file represents a page section.
-weight: 10  # Order that this section will appear.
-title: |
-  Wowchemy  
-  Research Group
-hero_media: welcome.jpg
-design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
-  # Add custom styles
-  css_style:
-  css_class:
+
+# ... Put Your Section Options Here (section position etc.) ...
+
+# Slide interval.
+# Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
+interval: false
+
+# Minimum slide height.
+# Specify a height to ensure a consistent height for each slide.
+height: 400px
+
+
+item:
+  - title: "CoE Faculty Senate"
+    content: University of Hawaiʻi at Mānoa
+    # Choose `center`, `left`, or `right` alignment.
+    align: center
+    # Overlay a color or image (optional).
+    #   Deactivate an option by commenting out the line, prefixing it with `#`.
+    #overlay_color: '#666'  # An HTML color value.
+    overlay_img: coe.jpeg  # Image path relative to your `assets/media/` folder
+    overlay_filter: 0.5  # Darken the image. Value in range 0-1.
 ---
 
-<br>
 
-The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.

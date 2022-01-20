@@ -1,0 +1,27 @@
+
+/*************************************************
+ *  Override page content style
+ **************************************************/
+
+.article-container {
+  max-width: none;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+}
+
+.gallery a[data-fancybox] img {
+  height: 200px;
+  max-width: 35%;
+  display: inherit;
+  padding: 2px;
+}
+
+/*************************************************
+ *  Override mavbar menu font
+ **************************************************/
+
+.dropdown-menu,
+nav#navbar-main li.nav-item {
+    font-size: 18px;
+    font-weight: bold;
+}

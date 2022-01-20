@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: minimal
+theme: uhm
 day_night: false
 font: native
 font_size: L
@@ -15,28 +15,27 @@ font_size: L
 site_type: Organization
 local_business_type: ''
 org_name: ''
-description: My research group description.
+description: The CoE Faculty Senate (Senate) as a collective representation to advise
+  and work with the College Administration on all matters of interest to the College and the University in teaching, research, and service in relation to the communities of UH, Hawaii and the engineering profession.
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: coesec@hawaii.edu
+phone:
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street:
+  city: Honolulu
+  region: HI
+  postcode: '96822'
   country: United States
   country_code: US
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  latitude:
+  longitude:
+directions:
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+appointment_url:
 contact_links:
 #  - icon: comments
 #    icon_pack: fas
