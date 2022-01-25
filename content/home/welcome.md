@@ -1,28 +1,33 @@
 ---
-widget: slider
+widget: hero # See https://wowchemy.com/docs/page-builder/
 headless: true  # This file represents a page section.
+weight: 10  # Order that this section will appear.
 
-# ... Put Your Section Options Here (section position etc.) ...
+title: |
+  Faculty Senate  
+  College of Engineering  
+  University of Hawaiʻi at Mānoa
 
-# Slide interval.
-# Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval: false
-
-# Minimum slide height.
-# Specify a height to ensure a consistent height for each slide.
-height: 400px
-
-
-item:
-  - title: "CoE Faculty Senate"
-    content: University of Hawaiʻi at Mānoa
-    # Choose `center`, `left`, or `right` alignment.
-    align: center
-    # Overlay a color or image (optional).
-    #   Deactivate an option by commenting out the line, prefixing it with `#`.
-    #overlay_color: '#666'  # An HTML color value.
-    overlay_img: coe.jpeg  # Image path relative to your `assets/media/` folder
-    overlay_filter: 0.5  # Darken the image. Value in range 0-1.
+hero_media:
+design:
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns: '1'
+  # Add custom styles
+  css_style:
+  css_class:
+  background:
+    # Name of image in `assets/media/`.
+    image: background.png
+    # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+    image_darken: 0.6
+    #  Options are `cover` (default), `contain`, or `actual` size.
+    image_size: cover
+    # Options include `left`, `center` (default), or `right`.
+    image_position: center
+    # Use a fun parallax-like fixed background effect on desktop? true/false
+    image_parallax: false
+    # Text color (true=light,false=dark, or remove for the dynamic theme color).
+    text_color_light: true
 ---
 
 

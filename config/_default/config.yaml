@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: CoE Faculty Senate # Website name
-baseurl: "http://wws2.hawaii.edu/~coesec/" # Website URL
+baseurl: "http://www2.hawaii.edu/~coesec/" # Website URL
 copyright: '&copy; 2022 Faculty Senate Charter, College of Engineering, University of Hawaii at Manoa' # Footer text, e.g. '© {year} Me'
 
 ############################

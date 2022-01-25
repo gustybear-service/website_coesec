@@ -7,37 +7,37 @@
 # Resolutions and minutes
 
 main:
-  - name: About
-    weight: 20
-  - name: About the Senate
-    url: purpose
-    parent: About
-    weight: 21
-  - name: Qualify as Members
-    url: qualify
-    parent: About
-    weight: 23
+  # - name: About
+  #   weight: 20
+  # - name: About the Senate
+  #   url: purpose
+  #   parent: About
+  #   weight: 21
+  # - name: Qualify as Members
+  #   url: qualify
+  #   parent: About
+  #   weight: 23
   - name: Members and Officers
     weight: 30
-  - name: Members
-    url: senate_members
-    parent: Members and Officers
-    weight: 31
+  # - name: Members
+  #   url: senate_members
+  #   parent: Members and Officers
+  #   weight: 31
   - name: Executive Committee
-    url: sec
+    url: "#team"
     parent: Members and Officers
     weight: 32
   - name: Docs & Resources
     weight: 40
   - name: Charter
-    url: charter
+    url: https://drive.google.com/file/d/1NHxJF1I2bkFyWbYwdVwc8ngSr0MIeDmt/view?usp=sharing
     parent: Docs & Resources
     weight: 41
   - name: Minutes
-    url: minutes
+    url: https://drive.google.com/drive/folders/1KMIwfTT-gJF4QTcaICOOdHyfoPsmYxUz?usp=sharing
     parent: Docs & Resources
     weight: 42
-  - name: Resolutions
-    url: resolutions
+  - name: Public Document Archive
+    url: https://drive.google.com/drive/folders/1JTnSUy3VrwZAp0mcTCz6CUwZ1er8O6Hp?usp=sharing
     parent: Docs & Resources
     weight: 43
