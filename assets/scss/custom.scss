@@ -22,6 +22,20 @@
 
 .dropdown-menu,
 nav#navbar-main li.nav-item {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+.navbar {
+    height: 90px;
+}
+
+.navbar-brand img {
+    width: auto;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: -webkit-stretch;
+    height: stretch;
+    max-height: 70px; // For lg+ responsive sizing. 60px height +10px v-padding = 70px
+    max-width: fit-content; // Must override default responsive image style.
 }

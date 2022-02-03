@@ -52,7 +52,7 @@ interests:
 social:
  - icon: external-link-alt
    icon_pack: fas
-   link: https://www.hawaii.edu/sustainability/expert/joseph-brown/
+   link: https://me.hawaii.edu/people/brown/
 
 # - icon: cv
 #   icon_pack: ai

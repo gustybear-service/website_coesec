@@ -49,10 +49,10 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-#social:
-# - icon: external-link-alt
-#   icon_pack: fas
-#   link: http://www.junezhang.net/
+social:
+- icon: external-link-alt
+  icon_pack: fas
+  link: https://me.hawaii.edu/allen/
 
 # - icon: cv
 #   icon_pack: ai

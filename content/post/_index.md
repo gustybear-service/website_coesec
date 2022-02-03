@@ -1,5 +1,5 @@
 ---
-title: Latest News
+title: CoE Faculty Senate Post
 
 # View.
 #   1 = List

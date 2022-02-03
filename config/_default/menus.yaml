@@ -10,7 +10,7 @@ main:
   # - name: About
   #   weight: 20
   # - name: About the Senate
-  #   url: purpose
+  #   url: overview
   #   parent: About
   #   weight: 21
   # - name: Qualify as Members
@@ -19,10 +19,10 @@ main:
   #   weight: 23
   - name: Members and Officers
     weight: 30
-  # - name: Members
-  #   url: senate_members
-  #   parent: Members and Officers
-  #   weight: 31
+  - name: Members
+    url: post/22-02-02-senate-member
+    parent: Members and Officers
+    weight: 31
   - name: Executive Committee
     url: "#team"
     parent: Members and Officers
